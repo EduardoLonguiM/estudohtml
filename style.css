@@ -1,0 +1,145 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: arial;
+	box-sizing: border-box;
+}	
+header{
+	height: 150px;
+	background-color:
+	 #351054;
+}
+#off{
+	color: white;
+	margin-left: 150px;
+}
+
+}
+#topo{
+	height: 40px;
+	padding: 5px;
+	box-sizing: border-box;
+}
+#cabeca{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 135px;
+	background-color: #582E84;
+	
+
+}
+#logo{
+	width: 35%;
+}
+#buscar{
+	width: 55%;
+
+}
+#buscador{
+	width: 400px;
+	padding: 10px;
+	border-radius: 1em;
+	border: none;
+	
+}
+#entrar{
+	width: 10%;
+}
+
+#logo img{
+	width: 180px: ;
+	height: 60px;
+	margin:  5px 0px 0px 60px;
+}
+.entra{
+	color: white;
+	font-weight: 700;
+	text-decoration: none;
+
+}
+
+nav{
+	height: 50px;
+	width: 80%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.menu{
+	color: #66667F;
+	text-decoration: none;
+	text-align: center;
+	padding: 10px 20px;
+	border-radius: 0.8em;
+}
+
+.menu:hover{
+	background-color: #f2f2f2;
+}
+
+		#cards{
+			display: flex;
+			flex-direction: column;
+			height: 400px;
+			width: 250px;
+			border: 1px solid #f2f2f2;
+			padding: 30px;
+			transition: 0.7s;
+		}
+		#cards:hover{
+			background-color: #f2f2f2;
+			box-shadow: 2px 1px 1px 1px rgba(0, 0, 0, 0.3);
+		}
+
+		#produto{
+			display: flex;
+			justify-content: center;
+			background-color: #f2f2f2;
+			padding: 10px;
+		}
+
+		#produto img{
+			width: 200px;
+			border-radius: 50%;
+		}
+
+		#desc{
+			padding: 10px;
+		}
+
+		#news{
+			background-color: rgb(240, 0, 155);
+			text-decoration: none;
+			color: white;
+			padding: 5px 20px;
+			font-size: 12px;
+			font-weight: 700;
+		}
+		h3{
+			padding-top: 10px;
+			padding-bottom: 10px;
+		}
+		#preco{
+			color: rgb(19, 171, 225);
+			font-weight: 700;
+		}
+		#principal{
+			display: flex;
+			justify-content: space-evenly;
+			padding: 20px;
+			height: 900px;
+			flex-wrap: wrap;
+		}
+		footer{
+			background-color: #f2f2f2;
+			height: 400px;
+			display: flex;
+			align-items: flex-end;
+			justify-content: center;	
+		}
+		footer p{
+			padding-bottom: 50px;
+		}
